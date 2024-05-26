@@ -14,11 +14,11 @@ function mintNFT (_name,_eyeColor,_shirtType,_bling) {
 
 function listNFTs () {
 for(let i=0; i<NFTs.length;i++){
-    console.log("\n ID:\t\t\t\t"+(i+1));
-    console.log(" Name:\t\t\t" + NFTs[i].name);
+    console.log("\n ID:\t\t"+(i+1));
+    console.log(" Name:\t\t" + NFTs[i].name);
     console.log(" Eyecolor:\t" +NFTs[i].eyeColor);
     console.log(" Shirt Type:" +NFTs[i].shirtType);
-    console.log(" Bling:\t\t\t" +NFTs[i].bling);
+    console.log(" Bling:\t\t" +NFTs[i].bling);
 }
 }
 
